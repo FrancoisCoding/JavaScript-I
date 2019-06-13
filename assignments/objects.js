@@ -11,27 +11,32 @@
 
 // Example format of an intern object: 1,examples@you.edu,Example,F
 const interns = [{
-  "id": 1,
-  "name": "Mitzi",
-  "email": "mmelloy0@psu.edu",
-  "gender": "F"},
-  {
-  "id": 2,
-  "name": "Kennan",
-  "email": "kdiben1@tinypic.com",
-  "gender": "M"},{
-  "id": 3,
-  "name": "Keven",
-  "email": "kmummery2@wikimedia.org",
-  "gender": "M"},{
-  "id": 4,
-  "name": "Gannie",
-  "email": "gmartinson3@illinois.edu",
-  "gender": "M"},{
-  "id": 5,
-  "name": "Antonietta",
-  "email": "adaine5@samsung.com",
-  "gender": "F"},]
+        "id": 1,
+        "name": "Mitzi",
+        "email": "mmelloy0@psu.edu",
+        "gender": "F"
+    },
+    {
+        "id": 2,
+        "name": "Kennan",
+        "email": "kdiben1@tinypic.com",
+        "gender": "M"
+    }, {
+        "id": 3,
+        "name": "Keven",
+        "email": "kmummery2@wikimedia.org",
+        "gender": "M"
+    }, {
+        "id": 4,
+        "name": "Gannie",
+        "email": "gmartinson3@illinois.edu",
+        "gender": "M"
+    }, {
+        "id": 5,
+        "name": "Antonietta",
+        "email": "adaine5@samsung.com",
+        "gender": "F"
+    }, ]
 
 // Write your intern objects here:
 
@@ -39,7 +44,7 @@ const interns = [{
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
 
-  // Mitzi's name
+// Mitzi's name
 console.log(interns[0].name)
 // Kennan's ID
 console.log(interns[1].id)
@@ -54,62 +59,69 @@ console.log(interns[4].gender)
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
 const interns = [{
-  "id": 1,
-  "name": "Mitzi",
-  "email": "mmelloy0@psu.edu",
-  "gender": "F"},
-  {
-  "id": 2,
-  "name": "Kennan",
-  "email": "kdiben1@tinypic.com",
-  "gender": "M",
-  "speak":() => console.log("Hello, my name is Kennan!")
-  },{
-  "id": 3,
-  "name": "Keven",
-  "email": "kmummery2@wikimedia.org",
-  "gender": "M"},{
-  "id": 4,
-  "name": "Gannie",
-  "email": "gmartinson3@illinois.edu",
-  "gender": "M"},{
-  "id": 5,
-  "name": "Antonietta",
-  "email": "adaine5@samsung.com",
-  "gender": "F"},]
+        "id": 1,
+        "name": "Mitzi",
+        "email": "mmelloy0@psu.edu",
+        "gender": "F"
+    },
+    {
+        "id": 2,
+        "name": "Kennan",
+        "email": "kdiben1@tinypic.com",
+        "gender": "M",
+        "speak": () => console.log("Hello, my name is Kennan!")
+  }, {
+        "id": 3,
+        "name": "Keven",
+        "email": "kmummery2@wikimedia.org",
+        "gender": "M"
+    }, {
+        "id": 4,
+        "name": "Gannie",
+        "email": "gmartinson3@illinois.edu",
+        "gender": "M"
+    }, {
+        "id": 5,
+        "name": "Antonietta",
+        "email": "adaine5@samsung.com",
+        "gender": "F"
+    }, ]
 
 console.log(interns[1].speak())
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
 const interns = [{
-  "id": 1,
-  "name": "Mitzi",
-  "email": "mmelloy0@psu.edu",
-  "gender": "F"},
-  {
-  "id": 2,
-  "name": "Kennan",
-  "email": "kdiben1@tinypic.com",
-  "gender": "M",
-  "speak":() => console.log("Hello, my name is Kennan!")
-  },{
-  "id": 3,
-  "name": "Keven",
-  "email": "kmummery2@wikimedia.org",
-  "gender": "M"},{
-  "id": 4,
-  "name": "Gannie",
-  "email": "gmartinson3@illinois.edu",
-  "gender": "M"},{
-  "id": 5,
-  "name": "Antonietta",
-  "email": "adaine5@samsung.com",
-  "gender": "F",
-  "multiplyNums": (a,b) => console.log(a*b)
-  },]
+        "id": 1,
+        "name": "Mitzi",
+        "email": "mmelloy0@psu.edu",
+        "gender": "F"
+    },
+    {
+        "id": 2,
+        "name": "Kennan",
+        "email": "kdiben1@tinypic.com",
+        "gender": "M",
+        "speak": () => console.log("Hello, my name is Kennan!")
+  }, {
+        "id": 3,
+        "name": "Keven",
+        "email": "kmummery2@wikimedia.org",
+        "gender": "M"
+    }, {
+        "id": 4,
+        "name": "Gannie",
+        "email": "gmartinson3@illinois.edu",
+        "gender": "M"
+    }, {
+        "id": 5,
+        "name": "Antonietta",
+        "email": "adaine5@samsung.com",
+        "gender": "F",
+        "multiplyNums": (a, b) => console.log(a * b)
+  }, ]
 
-console.log(interns[4].multiplyNums(3,4))
+console.log(interns[4].multiplyNums(3, 4))
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
@@ -121,17 +133,23 @@ console.log(interns[4].multiplyNums(3,4))
 // 4. Give each of the objects the ability to speak their names using the this keyword.
 
 const parent = {
-        name: 'Susan',
-        age: 70,
-        speak: function() { console.log(this.name) },
-          child: {
-            name: 'George',
-            age: 50,
-            speak: function() { console.log(this.name) },
-              grandchild: {
-                  name: 'Sam',
-                  age: 30,
-                  speak: function() { console.log(this.name) },
+    name: 'Susan',
+    age: 70,
+    speak: function () {
+        console.log(this.name)
+    },
+    child: {
+        name: 'George',
+        age: 50,
+        speak: function () {
+            console.log(this.name)
+        },
+        grandchild: {
+            name: 'Sam',
+            age: 30,
+            speak: function () {
+                console.log(this.name)
+            },
         }
     }
 }
